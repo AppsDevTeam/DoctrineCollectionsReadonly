@@ -300,4 +300,13 @@ class ReadOnlyCollectionWrapper implements \Doctrine\Common\Collections\Collecti
 		return $this->inner->matching($criteria);
 	}
 
+	public function findFirst(Closure $p)
+	{
+		// TODO: Implement findFirst() method.
+	}
+
+	public function reduce(Closure $func, mixed $initial = null)
+	{
+		// TODO: Implement reduce() method.
+	}
 }
